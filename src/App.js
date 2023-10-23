@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className="Menu">
+          <span>Sobre</span>
+        </nav>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Editar o <code>src/App.js</code> e salvar para ter alterações.
         </p>
         <a
           className="App-link"
